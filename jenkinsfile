@@ -9,7 +9,7 @@ node {
   }
 
   stage('Maven-Compile') {
-    sh label: '', script: 'mvn compile'
+    sh label: '', script: 'mvn install'
   }
   
   stage('Maven-Test') {
