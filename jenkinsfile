@@ -8,7 +8,7 @@ node {
     sh label: '', script: 'mvn clean'
   }
 
-  stage('Maven-Compile') {
+  stage('Maven-Install') {
     sh label: '', script: 'mvn install'
   }
   
