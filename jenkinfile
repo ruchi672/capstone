@@ -5,7 +5,7 @@ node {
   }
 
   stage('Maven-Clean') {
-    sh label: '', script: 'mvn clea'
+    sh label: '', script: 'mvn clean'
   }
 
   stage('Maven-Compile') {
